@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: "Poppins";
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -270,12 +270,16 @@ section {
 }
 
 .about-content h2 {
-    font-size: 7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6.7rem;
+    margin: 1.5rem 0;
     text-align: left;
 }
 
 .about-content p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1.6;
 }
 
 .about-content .btn {
@@ -423,6 +427,16 @@ section {
 .contact h2 {
     margin-bottom: 3rem;
     color: var(--text-color);
+}
+
+.contact p {
+    font-size: 2.5rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 550px;
+    margin-inline: auto;
+    line-height: 1.6;
 }
 
 .contact form {
