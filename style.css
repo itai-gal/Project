@@ -396,6 +396,7 @@ section {
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
+    min-height: 550px;
 }
 
 .project-card:hover {
@@ -405,7 +406,7 @@ section {
 }
 
 .project-card img {
-    max-width: 250px;
+    max-width: 350px;
     border-radius: 2em;
     object-fit: cover;
 }
