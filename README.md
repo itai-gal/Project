@@ -10,10 +10,10 @@ It showcases who I am, the services I offer, and a few project examples, all wra
 
 - **Name:** Portfolio Website
 - **Technologies Used:**  
-  - HTML5
-  - CSS3
-  - JavaScript (Vanilla)
-  - Boxicons (for icons)
+  - **HTML5** – For structure
+- **CSS3** – For styling and animations
+- **JavaScript** – For interactivity and DOM manipulation
+- **Boxicons** – For modern icons and social media logos
 - **Purpose:**  
   To present my skills, projects, and services as a Full-Stack Developer, and to provide an easy way for people to contact me.
 
@@ -21,28 +21,40 @@ It showcases who I am, the services I offer, and a few project examples, all wra
 
 ## 🛠 Features
 
-- Fully responsive design for all devices.
-- Animated navigation menu for mobile view.
-- Smooth scroll to sections.
-- Project showcase section with hover effects.
-- Integrated social media links (GitHub, LinkedIn, Instagram, WhatsApp).
-- Downloadable CV button.
-- Contact form with fields for Name, Email, Phone, Subject, and Message.
+- **Responsive Design** – Works great on desktop and mobile.
+- **Animated Navigation** – Smooth transitions and scroll effects.
+- **Interactive Elements** – Button hovers, animated bars, and social media links.
+- **Project Showcase** – Cards displaying sample work with images and descriptions.
+- **Contact Form** – Users can fill out a form to get in touch.
+- **CV Download** – A link to download my resume.
 
 ---
 
 ## 📂 Folder Structure
 
 ```
-/project-root
+portfolio-website/
 │
-├── imgs/            # Images used in the website
-├── public/          # Public assets (like CV file)
+├── index.html                   # Main HTML file
 │
-├── index.html       # Main HTML file
-├── style.css        # Styling (CSS)
-├── Script.js        # Script for interactive elements
-└── README.md        # Project description (this file)
+├── README.md                    # Project overview and usage instructions
+│
+├── style/
+│   ├── style.css                # Main stylesheet
+│   └── blankcvitai.pdf          # CV file for download
+│
+├── script/
+│   └── Script.js                # JavaScript for interactivity
+│
+├── images/                      # All images used in the site
+    ├── AMITITAY(140) (1).jpg
+    ├── 20231219_122525.jpg
+    ├── 20180122_183821.jpg
+    ├── 20190118172334_IMG_2771.JPG
+    ├── IMG_9751.JPG
+    ├── IMG_9867.JPG
+    ├── 20190125164229_IMG_3543.JPG
+    └── 20200816195656_IMG_8511.JPG
 ```
 
 ---
@@ -55,10 +67,12 @@ It showcases who I am, the services I offer, and a few project examples, all wra
 
 ---
 
-## ✍️ Author
+## 📫 Contact
 
 - **Itai Gal**
 - [GitHub Profile](https://github.com/itai-gal)
 - [LinkedIn Profile](https://www.linkedin.com/in/itai-gal-894415361/)
 
 ---
+
+> This is just the beginning. I'm constantly learning and improving. Stay tuned for updates and new features!
