@@ -30,27 +30,6 @@
     display: none;
 }
 
-#Btn {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background-color: #0EE1DA;
-    color: #011560;
-    text-decoration: none;
-    font-family: "Heebo", sans-serif;
-    font-weight: 700;
-    padding: 10px 16px;
-    font-size: 1.2em;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease;
-}
-
-#Btn:hover {
-    transform: scale(1.05);
-}
-
 section {
     direction: rtl;
     display: grid;
