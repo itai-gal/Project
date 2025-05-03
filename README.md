@@ -71,8 +71,6 @@ Feel free to reach out through my contact form or via:
 
 - [GitHub](https://github.com/itai-gal)
 - [LinkedIn](https://www.linkedin.com/in/itai-gal-894415361/)
-- [Instagram](https://www.instagram.com/itai.gal69)
-- [WhatsApp](https://api.whatsapp.com/send?phone=0524723091)
 
 ---
 © 2025 Itai Gal | All Rights Reserved
