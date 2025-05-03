@@ -45,6 +45,7 @@ body {
     font-size: 1.2rem;
     max-width: 600px;
     margin: 0 auto 30px;
+    direction: rtl
 }
 
 .project-buttons {
