@@ -8,6 +8,7 @@ body {
     font-family: "Assistant", sans-serif;
     background-color: #fff;
     color: #333;
+    height: 100vh;
 }
 
 .assi-bold {
@@ -27,6 +28,7 @@ body {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    height: 65vh;
 }
 
 #Sechead img {
@@ -70,18 +72,17 @@ body {
 
 #Secform {
     background-color: #f7f9fa;
-    padding: 40px 0;
+    padding: 100px 0;
     text-align: center;
+    height: 35vh;
 }
 
 #Secform form {
-    display: grid;
-    grid-template-columns: 420px 420px 166px;
-    grid-template-rows: auto 50px;
-    gap: 24px 32px;
+    display: flex;
     direction: rtl;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+
 }
 
 #Secform label {
@@ -93,13 +94,13 @@ body {
 #Secform input {
     background-color: #eef3f5;
     border: none;
-    border-bottom: 3px solid #a0d9d6;
+    border-bottom: 2px solid #a0d9d6;
     padding: 10px;
     font-size: 1em;
 }
 
 #emailForm {
-    direction: rtl;
+    direction: ltr;
 }
 
 #Secform button {
@@ -123,6 +124,10 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+    body {
+        height: 100vh;
+    }
+
     #fullImg {
         display: none;
     }
@@ -132,8 +137,21 @@ body {
     }
 
     #Sechead {
-        height: 55vh;
-        margin-bottom: 8vh;
+        height: 65vh;
+    }
+
+    #Sechead h1 {
+        font-size: 2.5em;
+    }
+
+    #Sechead p {
+        font-size: 1.5em;
+    }
+
+    #Secform {
+        height: 35vh;
+        display: flex;
+        padding: 25px 25px;
     }
 
     #Secform form {
@@ -152,6 +170,10 @@ body {
         height: 34px;
         background-color: #eef3f5;
         margin-bottom: 16px;
+    }
+
+    #emailForm {
+        direction: ltr;
     }
 
     #Secform button {
