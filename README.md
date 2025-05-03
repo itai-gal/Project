@@ -4,6 +4,7 @@ Welcome to my first web development project!
 This is a personal **portfolio website** built using **HTML**, **CSS**, and **JavaScript**.  
 It showcases who I am, the services I offer, and a few project examples, all wrapped in a modern, responsive design.
 
+[Click here to view the website](https://itai-gal.github.io/Project/)
 ---
 
 ## 📋 Project Overview
@@ -19,60 +20,61 @@ It showcases who I am, the services I offer, and a few project examples, all wra
 
 ---
 
-## 🛠 Features
-
-- **Responsive Design** – Works great on desktop and mobile.
-- **Animated Navigation** – Smooth transitions and scroll effects.
-- **Interactive Elements** – Button hovers, animated bars, and social media links.
-- **Project Showcase** – Cards displaying sample work with images and descriptions.
-- **Contact Form** – Users can fill out a form to get in touch.
-- **CV Download** – A link to download my resume.
-
----
-
 ## 📂 Folder Structure
 
 ```
 portfolio-website/
 │
-├── index.html                   # Main HTML file
-│
-├── README.md                    # Project overview and usage instructions
-│
+├── index.html               # Main HTML page
 ├── style/
-│   ├── style.css                # Main stylesheet
-│   └── blankcvitai.pdf          # CV file for download
-│
+│   └── style.css            # CSS styling for the website
 ├── script/
-│   └── Script.js                # JavaScript for interactivity
+│   └── Script.js            # JavaScript for interactivity
+├── images/                  # Profile and content images
 │
-├── images/                      # All images used in the site
-    ├── AMITITAY(140) (1).jpg
-    ├── 20231219_122525.jpg
-    ├── 20180122_183821.jpg
-    ├── 20190118172334_IMG_2771.JPG
-    ├── IMG_9751.JPG
-    ├── IMG_9867.JPG
-    ├── 20190125164229_IMG_3543.JPG
-    └── 20200816195656_IMG_8511.JPG
+├── PageLinks/               # Sub-pages for individual projects
+│   ├── linkPage.html
+│   ├── linkPage2.html
+│   ├── linkPage3.html
+│   ├── linkPage4.html
+│   ├── linkPage5.html
+│   ├── linkPage6.html
+│   └── Screenshots/         # Screenshots of each project
+│       ├── Project1scrshot.png
+│       ├── Project2scrshot.png
+│       ├── Project3scrshot.png
+│       ├── Project4scrshot.png
+│       ├── Project5scrshot.png
+│       └── Project6scrshot.png
 ```
 
+## 💡 Features
+
+- Responsive design
+- Smooth navigation bar
+- Animated bars on landing section
+- Social media integration
+- Project showcase with preview links
+- Contact form
+- CV download button
+
+## 🚀 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Boxicons
+
+## 📬 Contact
+
+Feel free to reach out through my contact form or via:
+
+- [GitHub](https://github.com/itai-gal)
+- [LinkedIn](https://www.linkedin.com/in/itai-gal-894415361/)
+- [Instagram](https://www.instagram.com/itai.gal69)
+- [WhatsApp](https://api.whatsapp.com/send?phone=0524723091)
+
 ---
-
-## 🚀 How to Run Locally
-
-1. Clone or download the project files.
-2. Open the `index.html` file with your web browser.
-3. Explore and interact with the portfolio!
-
----
-
-## 📫 Contact
-
-- **Itai Gal**
-- [GitHub Profile](https://github.com/itai-gal)
-- [LinkedIn Profile](https://www.linkedin.com/in/itai-gal-894415361/)
-
----
+© 2025 Itai Gal | All Rights Reserved
 
 > This is just the beginning. I'm constantly learning and improving. Stay tuned for updates and new features!
