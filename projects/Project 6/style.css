@@ -99,7 +99,7 @@ body {
 }
 
 #emailForm {
-    direction: ltr;
+    direction: rtl;
 }
 
 #Secform button {

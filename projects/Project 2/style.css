@@ -131,13 +131,12 @@ body {
                 position: relative;
                 font-size: 3.75em;
                 height: 20%;
-                margin-bottom: 20px;
+                margin-bottom: 70px;
             }
 
             h2 {
                 height: 5%;
-                font-size: 1.1em;
-                margin-bottom: 20px;
+                font-size: 1.3em;
             }
 
             p {
@@ -148,12 +147,16 @@ body {
 
             form {
                 display: flex;
-                flex-direction: column-reverse;
-                gap: 0;
+                flex-direction: column;
+                gap: 10px;
                 font-size: 0.75em;
 
                 #buttonForm {
                     display: block;
+                }
+
+                .forme {
+                    width: 100%;
                 }
 
                 input {
@@ -164,6 +167,7 @@ body {
                     color: #2823FD;
                     height: 33px;
                     width: 100%;
+                    margin-top: 20px;
                 }
             }
         }

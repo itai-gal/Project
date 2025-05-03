@@ -47,6 +47,7 @@ body {
 
     #bigImage {
         display: block;
+        max-height: 100vh;
     }
 
     #smallImage {

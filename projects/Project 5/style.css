@@ -18,12 +18,13 @@ body {
     font-family: "Assistant", sans-serif;
     background-color: #ffffff;
     color: #333;
+    height: 100vh;
 }
 
 #Sechead {
     user-select: none;
     width: 100vw;
-    height: 88vh;
+    height: 80%;
     position: relative;
     text-align: center;
     display: flex;
@@ -64,6 +65,7 @@ body {
 }
 
 #Secform {
+    height: 20%;
     width: 100vw;
     padding: 40px 0;
     background-color: #f8f8f8;
@@ -71,13 +73,11 @@ body {
 }
 
 #Secform form {
-    display: grid;
-    grid-template-columns: 420px 420px 166px;
-    grid-template-rows: auto 50px;
+    display: flex;
     gap: 24px 32px;
     direction: rtl;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 #Secform label {
@@ -89,7 +89,6 @@ body {
 #Secform input {
     background-color: #eeeeee;
     border: none;
-    border-bottom: 3px solid #a1c4fd;
     padding: 10px;
     font-size: 1em;
 }
@@ -130,11 +129,6 @@ body {
 
     #mobileImg {
         display: block;
-    }
-
-    #Sechead {
-        height: 50vh;
-        margin-bottom: 8vh;
     }
 
     #Secform h1,
